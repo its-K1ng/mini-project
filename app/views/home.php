@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home - Mini Saving</title>
+    <title>Home - Saving</title>
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
     <nav>
-        <h1>Mini Saving</h1>
+        <h1>Saving</h1>
         <?php if(isset($_SESSION['user_id'])): ?>
             <div>
                 Welcome, <?php echo $_SESSION['user_name']; ?>
