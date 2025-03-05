@@ -6,7 +6,7 @@ class AuthController {
     public function __construct() {
         $database = new Database();
         $this->db = $database->connect();
-        require_once 'app/models/User.php';
+        require_once 'app/models/user.php';
         $this->userModel = new User($this->db);
     }
 

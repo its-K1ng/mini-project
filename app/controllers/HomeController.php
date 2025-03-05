@@ -14,12 +14,14 @@ class HomeController {
         require_once 'app/helpers/AuthMiddleware.php';
         AuthMiddleware::isAuthenticated(); // Pastikan user login
     
-        $userId = AuthMiddleware::getUserId();
+        $userId = AuthMiddleware::getuserId();
         $isAdmin = $_SESSION['user_role'] === 'admin';
-        $savings = $this->savingModel->getByUserId($userId); // Admin & user hanya lihat setorannya sendiri
+        $savings = $this->savingModel->getByuserId($userId); // Admin & user hanya lihat setorannya sendiri
         require_once 'app/views/home.php';
     }
     
+    
+
     public function admin()
     {
         require_once 'app/helpers/AuthMiddleware.php';
