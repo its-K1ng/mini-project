@@ -26,9 +26,10 @@
                 </tr>
             </thead>
             <tbody>
+                <!-- perulangan PHP untuk menampilkan data tabungan -->
                 <?php foreach($savings as $saving): ?>
                     <tr>
-                        <td><?php echo $saving['id']; ?></td>
+                        <td><?php echo $saving['id']; ?></td><!-- Menampilkan id tabungan -->
                         <td><?php echo htmlspecialchars($saving['name']); ?></td>
                         <td>Rp<?php echo number_format($saving['amount']); ?></td>
                         <td><?php echo htmlspecialchars($saving['message']); ?></td>
