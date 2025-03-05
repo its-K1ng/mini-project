@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login - Savings</title>
+    <title>Login - Mini tabung</title>
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
     <nav>
-        <h1>Savings</h1>
+        <h1>Mini tabungan</h1>
         <a href="home">Home</a>
     </nav>
 
