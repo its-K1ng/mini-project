@@ -6,4 +6,6 @@ update keempat - admin.php
 update kelima - save.php
 update keenam - log out.php
 update ketujuh - authcontroller.php
-
+update kedelapan - homecontroller.php
+update kesembilan - savingcontroller.php
+update kesepuluh - authmiddleware.php
