@@ -6,11 +6,11 @@
 </head>
 <body>
     <nav>
-        <h1>Save</h1>
+        <h1>Saving</h1>
         <a href="home">Home</a>
     </nav>
 
-    <main>
+    <main class="main">
         <h2>Make a Saving</h2>
         <form method="POST" action="save">
             <div>
@@ -21,7 +21,7 @@
                 <label>Message</label>
                 <textarea name="message" required></textarea>
             </div>
-            <button type="submit">Save</button>
+            <button  class="blue-button" type="submit">Save</button>
         </form>
     </main>
 </body>

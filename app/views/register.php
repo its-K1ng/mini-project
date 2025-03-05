@@ -10,7 +10,7 @@
         <a href="home">Home</a>
     </nav>
 
-    <main>
+    <main class="main">
         <h2>Register</h2>
         <form method="POST" action="register">
             <div>
@@ -25,7 +25,7 @@
                 <label>Password</label>
                 <input type="password" name="password" required>
             </div>
-            <button type="submit">Register</button>
+            <button class="blue-button" type="submit">Register</button>
         </form>
         <p>Already have an account? <a href="login">Login</a></p>
     </main>

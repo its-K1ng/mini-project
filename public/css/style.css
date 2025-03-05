@@ -7,10 +7,19 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-image: url(bg.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
   }
   
+  .main{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    margin-top: 200px;
+}
+
   nav {
-    background: #333;
+    background: #5479AE;
     color: white;
     padding: 1rem;
     display: flex;
@@ -41,47 +50,36 @@
     flex-direction: column;
   }
   
-  input,
-  textarea {
+  input, textarea {
     padding: 0.5rem;
     margin-top: 0.25rem;
+    font-size: 12px;
   }
-  
+
   button {
     padding: 0.5rem 1rem;
-    background: #333;
+    background: #5479AE;
     color: white;
     border: none;
     cursor: pointer;
   }
   
   button:hover {
-    background: #444;
+    background: #4a6c9d;
   }
-  
-  .donation-card {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 4px;
-  }
-  
-  .donation-card h3 {
-    margin-bottom: 0.5rem;
-  }
-  
-  .donation-card small {
-    color: #666;
+
+  .blue-button{
+    font-size: 20px;
   }
   
   .admin-table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0;
+    background-color: #7ea7e0;
   }
   
-  .admin-table th,
-  .admin-table td {
+  .admin-table th, .admin-table td {
     padding: 0.5rem;
     border: 1px solid #ddd;
     text-align: left;
@@ -95,3 +93,15 @@
     background: #f9f9f9;
   }
   
+  .recent{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    margin-top: 200px;
+  }
+
+  .saving-card{
+    background-color: rgba(118, 148, 190, 0.5);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 7px;
+  }

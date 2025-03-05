@@ -24,10 +24,10 @@
         <?php endif; ?>
     </nav>
 
-    <main>
+    <main class= "recent">
         <h2>Recent Saving</h2>
         <?php foreach($savings as $Saving): ?>
-            <div class="Saving-card">
+            <div class="saving-card">
                 <h3><?php echo htmlspecialchars($Saving['name']); ?></h3>
                 <p>Amount: Rp<?php echo number_format($Saving['amount']); ?></p>
                 <p>Message: <?php echo htmlspecialchars($Saving['message']); ?></p>
