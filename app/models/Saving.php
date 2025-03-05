@@ -18,7 +18,7 @@ class Saving {
         if($stmt->execute()) {
             return true;
         }
-        return false;
+        return false
     }
    
     public function getAll() {
